@@ -18,10 +18,13 @@ aliyun-mq-csharp-sdk-{version}-{platform}.{ext}
 
 ## 下载
 
-最新版本 **v2.0.1**：
+最新版本 **v2.0.2**（仅 Windows / Linux）：
 
-- [Windows amd64](https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases/download/v2.0.1/aliyun-mq-csharp-sdk-2.0.1-windows.zip)
-- [Linux amd64](https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases/download/v2.0.1/aliyun-mq-csharp-sdk-2.0.1-linux.tar.gz)
+- [Windows amd64](https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases/download/v2.0.2/aliyun-mq-csharp-sdk-2.0.2-windows.zip)
+- [Linux amd64](https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases/download/v2.0.2/aliyun-mq-csharp-sdk-2.0.2-linux.tar.gz)
+
+macOS 用户请使用 v2.0.1：
+
 - [Darwin amd64](https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases/download/v2.0.1/aliyun-mq-csharp-sdk-2.0.1-darwin.tar.gz)
 
 完整版本列表、变更日志与历史版本下载：[Releases](https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases)
@@ -32,14 +35,14 @@ aliyun-mq-csharp-sdk-{version}-{platform}.{ext}
 
 ```bash
 # Linux / macOS
-curl -LO https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases/download/v2.0.1/aliyun-mq-csharp-sdk-2.0.1-linux.tar.gz
-curl -LO https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases/download/v2.0.1/SHA256SUMS.txt
+curl -LO https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases/download/v2.0.2/aliyun-mq-csharp-sdk-2.0.2-linux.tar.gz
+curl -LO https://github.com/aliyunmq/mq-tcp-csharp-sdk/releases/download/v2.0.2/SHA256SUMS.txt
 shasum -a 256 -c SHA256SUMS.txt --ignore-missing
 ```
 
 ```powershell
 # Windows
-Get-FileHash aliyun-mq-csharp-sdk-2.0.1-windows.zip -Algorithm SHA256
+Get-FileHash aliyun-mq-csharp-sdk-2.0.2-windows.zip -Algorithm SHA256
 ```
 
 ## 使用文档
