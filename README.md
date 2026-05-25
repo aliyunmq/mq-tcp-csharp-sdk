@@ -1,12 +1,8 @@
 # mq-tcp-csharp-sdk
 
-阿里云消息队列 RocketMQ 4.x .NET (C#) TCP 协议 SDK 二进制包归档仓库。
+RocketMQ 4.x TCP 协议 .NET (C#) SDK 二进制包归档仓库。
 
-> ⚠️ **维护状态**：RocketMQ 4.x TCP 协议 SDK 已停止更新。新项目请使用 [RocketMQ 5.x gRPC 协议 SDK](https://help.aliyun.com/zh/apsaramq-for-rocketmq/cloud-message-queue-rocketmq-5-x-series)。本仓库仅用于历史版本归档，方便存量用户继续下载。
-
-## 背景
-
-历史上这些 SDK 通过阿里云 OSS（`ons-client-sdk.oss-cn-hangzhou.aliyuncs.com`）公开分发，链接见[阿里云官方发行说明](https://help.aliyun.com/zh/apsaramq-for-rocketmq/cloud-message-queue-rocketmq-4-x-series/developer-reference/release-notes-17)。该 OSS 桶现已关闭匿名访问，所有原始下载链接返回 HTTP 403。本仓库将官方文档引用过的版本完整迁移至 GitHub Releases，作为公开备份。
+> ⚠️ **维护状态**：本 SDK 已停止更新，仅用于历史版本归档。新项目请使用基于 gRPC 协议的 RocketMQ 5.x SDK。
 
 ## 文件命名规范
 
@@ -44,9 +40,3 @@ shasum -a 256 -c SHA256SUMS.txt --ignore-missing
 # Windows
 Get-FileHash aliyun-mq-csharp-sdk-2.0.1-windows.zip -Algorithm SHA256
 ```
-
-## 文档
-
-- [阿里云 RocketMQ 4.x .NET SDK 发行说明](https://help.aliyun.com/zh/apsaramq-for-rocketmq/cloud-message-queue-rocketmq-4-x-series/developer-reference/release-notes-17)
-- [接入指南](https://help.aliyun.com/zh/apsaramq-for-rocketmq/cloud-message-queue-rocketmq-4-x-series/developer-reference/sdk-for-net)
-- [RocketMQ 5.x（推荐）](https://help.aliyun.com/zh/apsaramq-for-rocketmq/cloud-message-queue-rocketmq-5-x-series)
