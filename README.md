@@ -113,4 +113,4 @@ Get-FileHash aliyun-mq-csharp-sdk-2.0.1-windows.zip -Algorithm SHA256
 
 ## 使用文档
 
-SDK 接入与使用方式请参考[阿里云 RocketMQ .NET SDK 接入指南](https://help.aliyun.com/zh/apsaramq-for-rocketmq/cloud-message-queue-rocketmq-4-x-series/developer-reference/sdk-for-net)。
+SDK 接入与使用方式请参考[准备 TCP 协议的 .NET SDK 开发环境](https://help.aliyun.com/zh/apsaramq-for-rocketmq/cloud-message-queue-rocketmq-4-x-series/developer-reference/prepare-the-environment-2)。
